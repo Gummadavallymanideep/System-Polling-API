@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb+srv://Manideep:Mani@projectcluster.tx9gp0v.mongodb.net/api-polling?retryWrites=true&w=majority');
+mongoose.connect('mongodb://localhost/System-Polling-API');
 
 const db = mongoose.connection;
 
