@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/System-Polling-API');
+mongoose.connect('mongodb://localhost/api-polling');
 
 const db = mongoose.connection;
 
